@@ -10,7 +10,7 @@ function! Update42Header()
       execute "normal! 0"  
       execute "normal! d$"
       execute "normal! i" . printf("/*   Updated: %s by %s%s###   ########.fr       */", current_time, g:your_login, repeat(' ', 17 - len(g:your_login)))
-      execute "normal! a"
+      execute "normal! `a"
   endif
 endfunction
 
