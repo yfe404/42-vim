@@ -48,7 +48,7 @@ Every time you save a file, the `Updated:` line in the 42-style header will auto
 /*   By: johndoe <johndoe@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/01 12:34:56 by johndoe           #+#    #+#             */
-/*   Updated: 2025/02/01 11:55:06 by YOUR_LOGIN       ###   ########.fr       */
+/*   Updated: 2025/02/01 11:55:06 by johndoe          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 ```
