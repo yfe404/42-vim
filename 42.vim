@@ -1,5 +1,14 @@
 let g:your_login = "YOUR_LOGIN"
 
+" Add line numbers on the left side
+set number
+" Highlight the current line underneath the cursor
+set cursorline
+" Set tab width to 4 columns.
+set tabstop=4
+" Set shift width to 4 spaces. This is the indent when using << or >>
+set shiftwidth=4
+
 function! Update42Header()
     execute "normal! ma"
 	if search('Updated: \d.*###   ########.fr' , 'e')
