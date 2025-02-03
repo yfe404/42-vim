@@ -4,6 +4,8 @@ let g:your_login = "YOUR_LOGIN"
 set number
 " Highlight the current line underneath the cursor
 set cursorline
+" Show column number
+set ruler
 " Set tab width to 4 columns.
 set tabstop=4
 " Set shift width to 4 spaces. This is the indent when using << or >>
