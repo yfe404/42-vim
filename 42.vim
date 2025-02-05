@@ -1,4 +1,4 @@
-let g:your_login = "YOUR_LOGIN"
+let g:your_login = "yfeunteu"
 
 " Add line numbers on the left side
 set number
@@ -37,7 +37,7 @@ function! Insert42Header()
 	let header = printf("/*   %s%s:+:      :+:    :+:   */", filename, repeat(' ', 51 - len(filename)))
 	execute "normal! o" . header
 	execute "normal! o/*                                                    +:+ +:+         +:+     */"
-	execute "normal! o" . printf("/*   By: %s <%s@student.42.fr>%s+#+  +:+       +#+        */", g:your_login, g:your_login, repeat(' ', 26 - 2*len(g:your_login)))
+	execute "normal! o" . printf("/*   By: %s <%s@student.42prague.com>%s+#+  +:+       +#+        */", g:your_login, g:your_login, repeat(' ', 19 - 2*len(g:your_login)))
 	execute "normal! o/*                                                +#+#+#+#+#+   +#+           */"
 	let current_time = strftime("%Y/%m/%d %H:%M:%S")
 	execute "normal! o" . printf("/*   Created: %s by %s%s#+#    #+#             */", current_time, g:your_login, repeat(' ', 18 - len(g:your_login)))
